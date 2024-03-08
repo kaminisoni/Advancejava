@@ -8,7 +8,7 @@ public class Delete
 		Scanner sc = new Scanner(System.in);
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Aryan@04");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Kamini@22");
 		
 		System.out.println("Enter The ID to be deleted");
 		String r = sc.next();
