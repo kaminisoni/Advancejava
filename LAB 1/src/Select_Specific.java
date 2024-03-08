@@ -13,7 +13,7 @@ public class Select_Specific
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Enter The ID of the Employee");
 		String roll = sc.next();
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Aryan@04");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Kamini@22");
 		String query = "select * from Employee where id = ?";
 		PreparedStatement pst = con.prepareStatement(query);
 		pst.setString(1, roll);
