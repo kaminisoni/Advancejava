@@ -9,7 +9,7 @@ public class Update
 		
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Aryan@04");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Kamini@22");
 				
 		System.out.println("Enter The ID of the Employee Whose Data needs to be Updated");
 		String id = sc.next();
