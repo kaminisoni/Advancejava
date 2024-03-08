@@ -18,7 +18,7 @@ public class Insert
 		String date = sc.next();
 		
 
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Aryan@04");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BCA","root","Kamini@22");
 				
 		String query = "Insert into Employee values (? , ? , ? , ? ,?)";
 		PreparedStatement pst = con.prepareStatement(query);
