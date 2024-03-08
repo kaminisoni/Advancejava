@@ -18,7 +18,7 @@ public class HibernateUtil
 		properties.put(Environment.DRIVER,"com.mysql.cj.jdbc.Driver");
 		properties.put(Environment.URL, "jdbc:mysql://localhost:3306/BCA");
 		properties.put(Environment.USER, "root");
-		properties.put(Environment.PASS, "Aryan@04");
+		properties.put(Environment.PASS, "Kamini@22");
 		properties.put(Environment.SHOW_SQL, true);
 		properties.put(Environment.FORMAT_SQL, true);
 		properties.put(Environment.HBM2DDL_AUTO, "update");
